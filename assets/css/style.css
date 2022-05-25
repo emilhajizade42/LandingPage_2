@@ -49,8 +49,11 @@ nav>div:hover{
 }
 
 .MemoryFlashBacks{
-    min-height: 100vh;
+    height: 100vh;
     background-color: #454545;
+    background-image: url(../imgs/bg_slide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -68,7 +71,167 @@ nav>div:hover{
 }
 
 .TheBand{
-    height: 60vh;
-    background-color: burlywood;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50xp 0;
 
+}
+.bandHeader{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.bandHeader_tail{
+    margin: 15px 0;
+    font-size: 15px;
+}
+.bandContent{
+    max-width: 768px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.bandBox{
+ display: flex;
+ justify-content: space-between;
+ width: 708px;
+}
+.bandBox_card{
+
+}
+.bandBox_card>h4{
+ text-align: center;
+ margin: 10px 0;
+}
+.bandBox_card>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+.tourDates{
+
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+.tourDatesContainer{
+    width: 800px;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+.tourDates_header{
+    margin-bottom: 15px;
+}
+.tourDates_header_tail{
+    margin-bottom: 20px;
+}
+.tourDates_table{
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+}
+.tourDates_row{
+    padding: 15px ;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid black;
+}
+.tourDates_row>span{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+}
+.tourDates_cardbox{
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+
+}
+.tourDates_card{
+    background-color: white;
+    color: #000;
+
+}
+.tourDates_card>h5{
+    margin: 10px;
+}
+.tourDates_card_date{
+    margin: 10px;
+}
+.tourDates_card_content{
+    margin: 10px;
+}
+.tourDates_card_btn{
+    margin: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    width: 80px;
+    white-space: nowrap;
+}
+.contact{
+    height: 60vh;
+    width: 100%;
+}
+.contactContainer{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.contact_header{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.contact_header_tail{
+    margin: 15px 0;
+    margin-bottom: 50px;
+}
+.contactForm{
+    width: 100%;
+    display: flex;
+
+}
+.contactForm_contacts{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.contactForm_form{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    width: 50%;
+}
+.form_break{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.contactForm_form >button{
+    align-self: flex-end;
+    margin-top: 10px;
+    padding:5px 10px;
+    background-color: #000;
+    color: #fff;
+}
+.upView{
+    height: 100vh;
+    background-image: url(https://www.w3schools.com/w3images/map.jpg);
+}
+footer{
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    height: 10vh;
 }
